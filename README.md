@@ -10,7 +10,7 @@
   <img src="https://cdn.prod.website-files.com/6479eab6eb2ed5e597810e9e/6749ca696ac206d7c58802c6_Traffic_Thumbnail%202.png" alt="Project Banner">
 </p>
 
-## Overview
+## 🌟 Overview
 This project is a **real-world traffic violation detection system** built using **Flask** for the backend and **HTML, CSS, and JavaScript** for the frontend. It processes video footage to detect various traffic violations, including:
 - **ATCC**(Automatic Traffic Classication and control)
 - **Heat Map Visualisation** (Specifies high of lane on the road)
@@ -22,7 +22,7 @@ The system leverages **YOLO (You Only Look Once) models** for object detection a
 
 ---
 
-## Features
+## ✨ Features
 - **Video Upload**: Users can upload a video of traffic footage.
 - **Real-time Processing**: The system analyzes the video and detects violations.
 - **Helmet Detection**: Identifies riders not wearing helmets.
@@ -44,12 +44,10 @@ The system leverages **YOLO (You Only Look Once) models** for object detection a
 
 ---
 
----
-
-## Installation
+## 🛠 Installation
 ### Step 1: Clone the Repository
 ```sh
-git clone 
+git clone https://github.com/Rakeshbabu17/Smart_Traffic_Management.git 
 ```
 
 ### Step 2: Install Dependencies
@@ -58,8 +56,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 3: Run the Flask Backend
-```sh
-cd backend
+```
 python app.py
 ```
 **Expected Output:**
@@ -68,39 +65,27 @@ python app.py
 ```
 
 ### Step 4: Run the Frontend
-Open `index.html` in a browser or use Live Server if using VS Code.
+ `npm run dev`
 
 ---
 
-## Usage
+## 🚀 Usage
 1. **Upload a Video**: Select a traffic footage file from your system.
 2. **Click Process**: The system processes the video and detects violations.
 3. **View Results**: Detected violations are displayed with bounding boxes.
 
 ---
+## 📈 Results
 
-## API Endpoints
-- `POST /upload` → Accepts a video file for processing.
-- `GET /results` → Returns detected violations as JSON.
+https://github.com/user-attachments/assets/a89ae7d5-4f3d-4b43-b1c6-872949bb3d7e
 
----
 
-## Future Enhancements
-✅ Number Plate Recognition (OCR for vehicle identification)
-✅ Improved UI for better user experience
-✅ Deployment on a cloud server
 
 ---
-
-## Contributors
-- **Your Name** (Developer)
-- **Your Team Members (if any)**
-
+## 📄 License
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
 ---
+<p align="center">
+  Made with ❤️ by the Infosys Springboard Internship Team
+</p>
 
-## License
-MIT License
-
----
-
-🚀 **Start detecting traffic violations today!**
